@@ -35,8 +35,8 @@ import us.zoom.sdk.ZoomSDKInitializeListener
 class MainActivity : FlutterActivity(), ZoomSDKInitializeListener {
 
   private val CHANNEL = "samples.flutter.dev/battery"
-  private val APP_KEY = "c6gX0pRnqcysqvZYyWpHZt9Vyj4CibViayw8"
-  private val APP_SECRET = "mEfO3Q6vzOxdtoMIksubR5Yqyvuq1aaY4Q5i"
+  private val APP_KEY = "YOUR_APP_KEY"
+  private val APP_SECRET = "YOUR_APP_SECRET"
   private val DOMAIN = "zoom.us"
 
   override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
